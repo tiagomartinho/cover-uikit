@@ -16,6 +16,7 @@ extension UIView {
         let item = buildPlayerItem(path: path)
         let player = AVQueuePlayer(playerItem: item)
         let playerLayer = AVPlayerLayer(player: player)
+        playerLayer.player?.isMuted = true
 
         let playerView = buildPlayerView(playerLayer: playerLayer)
         playerView.alpha = alpha
