@@ -2,19 +2,15 @@ import UIKit
 import AVFoundation
 
 extension UIView {
-    
+
     public func add(videoName: String, alpha: CGFloat = 1.0) -> Player? {
-
-        guard let path = PathExtractor.extract(from: videoName) else {
-            return nil
-        }
-
-        return add(videoPath: path, alpha: alpha)
+        return add(videoNames: [videoName])
     }
 
-    public func add(videoPath path: String, alpha: CGFloat = 1.0) -> Player? {
-        let item = buildPlayerItem(path: path)
-        let player = AVQueuePlayer(playerItem: item)
+    public func add(videoNames: [String], alpha: CGFloat = 1.0) -> Player? {
+        let videoPaths = videoNames.compactMap(PathExtractor.extract)
+        let items = videoPaths.compactMap(buildPlayerItem)
+        let player = AVQueuePlayer(items: items)
         let playerLayer = AVPlayerLayer(player: player)
         playerLayer.player?.isMuted = true
 
@@ -23,8 +19,9 @@ extension UIView {
         add(playerView)
 
         player.play()
-        
-        let playerLooper = AVPlayerLooper(player: player, templateItem: item)
+
+        guard let templateItem = items.first else { return nil }
+        let playerLooper = AVPlayerLooper(player: player, templateItem: templateItem)
         return Player(playerLooper: playerLooper, player: player)
     }
 
