@@ -4,7 +4,7 @@ import AVFoundation
 extension UIView {
 
     public func add(videoName: String, alpha: CGFloat = 1.0) -> Player? {
-        return add(videoNames: [videoName])
+        return add(videoNames: [videoName], alpha: alpha)
     }
 
     public func add(videoNames: [String], alpha: CGFloat = 1.0) -> Player? {
