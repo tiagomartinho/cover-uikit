@@ -40,10 +40,10 @@ extension UIView {
     }
 
     private func add(_ playerView: UIView) {
+        addAndPin(view: playerView)
         let blackView = UIView()
         blackView.backgroundColor = .black
         addAndPin(view: blackView)
-        addAndPin(view: playerView)
     }
 
     private func addAndPin(view: UIView) {
@@ -53,5 +53,6 @@ extension UIView {
         view.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
         view.topAnchor.constraint(equalTo: topAnchor).isActive = true
         view.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
+        sendSubview(toBack: view)
     }
 }
