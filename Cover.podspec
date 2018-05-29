@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "Cover"
   s.version      = "0.1"
-  s.summary      = ""
+  s.summary      = "Cover"
   s.description  = <<-DESC
     Your description here.
   DESC
