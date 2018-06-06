@@ -1,0 +1,6 @@
+module Cover {
+  umbrella header "Cover-umbrella.h"
+
+  export *
+  module * { export * }
+}

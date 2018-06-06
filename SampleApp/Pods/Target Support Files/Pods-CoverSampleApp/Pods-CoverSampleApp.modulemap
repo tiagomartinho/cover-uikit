@@ -1,0 +1,6 @@
+module Pods_CoverSampleApp {
+  umbrella header "Pods-CoverSampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

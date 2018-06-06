@@ -1,0 +1,3 @@
+target 'CoverSampleApp' do
+    pod 'Cover', :path => '../'
+end

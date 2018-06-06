@@ -1,0 +1,16 @@
+PODS:
+  - Cover (0.1)
+
+DEPENDENCIES:
+  - Cover (from `../`)
+
+EXTERNAL SOURCES:
+  Cover:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cover: aa7720a53481dbed8f4011db7daab8f940a2ac28
+
+PODFILE CHECKSUM: 7f5a078cec18345fd52f930f598bfb07959f0caa
+
+COCOAPODS: 1.5.3
