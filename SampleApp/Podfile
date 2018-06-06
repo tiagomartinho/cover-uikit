@@ -1,3 +1,9 @@
 target 'CoverSampleApp' do
+    platform :ios, '11.4'
+    pod 'Cover', :path => '../'
+end
+
+target 'CoverSampleTV' do
+    platform :tvos, '11.4'
     pod 'Cover', :path => '../'
 end

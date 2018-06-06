@@ -1,0 +1,6 @@
+module Pods_CoverSampleTV {
+  umbrella header "Pods-CoverSampleTV-umbrella.h"
+
+  export *
+  module * { export * }
+}

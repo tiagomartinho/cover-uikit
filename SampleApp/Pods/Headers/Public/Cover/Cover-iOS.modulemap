@@ -1,0 +1,7 @@
+module Cover {
+  umbrella header "Cover-iOS-umbrella.h"
+  exclude header "Cover-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

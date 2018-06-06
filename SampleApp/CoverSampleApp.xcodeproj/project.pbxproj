@@ -13,10 +13,17 @@
 		24AACC9E20C7EBF30099847A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AACC9D20C7EBF30099847A /* Assets.xcassets */; };
 		24AACCA120C7EBF30099847A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AACC9F20C7EBF30099847A /* LaunchScreen.storyboard */; };
 		24C21AD420C7ECEB00B233A6 /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C21AD320C7ECEB00B233A6 /* Video.mp4 */; };
+		24C21ADD20C7ED5000B233A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C21ADC20C7ED5000B233A6 /* AppDelegate.swift */; };
+		24C21AE220C7ED5000B233A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C21AE020C7ED5000B233A6 /* Main.storyboard */; };
+		24C21AE420C7ED5100B233A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C21AE320C7ED5100B233A6 /* Assets.xcassets */; };
+		24C21AE920C7EDD100B233A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AACC9820C7EBF30099847A /* ViewController.swift */; };
+		24C21AEA20C7EDE500B233A6 /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C21AD320C7ECEB00B233A6 /* Video.mp4 */; };
+		6770332A5F5F427C588E5086 /* libPods-CoverSampleTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBE210FEAE5FC6629F7217A /* libPods-CoverSampleTV.a */; };
 		9AC6E1A3FF4B464C397637BF /* libPods-CoverSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2011A390FD0570181D4E7FE /* libPods-CoverSampleApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02C77A2A5ECCD993978A7631 /* Pods-CoverSampleTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverSampleTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoverSampleTV/Pods-CoverSampleTV.debug.xcconfig"; sourceTree = "<group>"; };
 		0B650B4D0AD87C0789196E48 /* Pods-CoverSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoverSampleApp/Pods-CoverSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		24AACC9320C7EBF30099847A /* CoverSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AACC9620C7EBF30099847A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +33,14 @@
 		24AACCA020C7EBF30099847A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24AACCA220C7EBF30099847A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C21AD320C7ECEB00B233A6 /* Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video.mp4; sourceTree = "<group>"; };
+		24C21ADA20C7ED5000B233A6 /* CoverSampleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverSampleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C21ADC20C7ED5000B233A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24C21AE120C7ED5000B233A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24C21AE320C7ED5100B233A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24C21AE520C7ED5200B233A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77EAB37368829643274881E7 /* Pods-CoverSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoverSampleApp/Pods-CoverSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A898D4E2A6D3035520EAECEB /* Pods-CoverSampleTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverSampleTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoverSampleTV/Pods-CoverSampleTV.release.xcconfig"; sourceTree = "<group>"; };
+		ECBE210FEAE5FC6629F7217A /* libPods-CoverSampleTV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoverSampleTV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2011A390FD0570181D4E7FE /* libPods-CoverSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoverSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,6 +50,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AC6E1A3FF4B464C397637BF /* libPods-CoverSampleApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C21AD720C7ED5000B233A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6770332A5F5F427C588E5086 /* libPods-CoverSampleTV.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				24AACC9320C7EBF30099847A /* CoverSampleApp.app */,
+				24C21ADA20C7ED5000B233A6 /* CoverSampleTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +96,7 @@
 		24C21AD520C7ED1C00B233A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				24C21ADB20C7ED5000B233A6 /* CoverSampleTV */,
 				24AACC9620C7EBF30099847A /* AppDelegate.swift */,
 				24AACC9A20C7EBF30099847A /* Main.storyboard */,
 				24AACC9D20C7EBF30099847A /* Assets.xcassets */,
@@ -82,10 +106,22 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		24C21ADB20C7ED5000B233A6 /* CoverSampleTV */ = {
+			isa = PBXGroup;
+			children = (
+				24C21ADC20C7ED5000B233A6 /* AppDelegate.swift */,
+				24C21AE020C7ED5000B233A6 /* Main.storyboard */,
+				24C21AE320C7ED5100B233A6 /* Assets.xcassets */,
+				24C21AE520C7ED5200B233A6 /* Info.plist */,
+			);
+			path = CoverSampleTV;
+			sourceTree = "<group>";
+		};
 		BA5A171CB5D60E4E2A0CF7FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F2011A390FD0570181D4E7FE /* libPods-CoverSampleApp.a */,
+				ECBE210FEAE5FC6629F7217A /* libPods-CoverSampleTV.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,6 +131,8 @@
 			children = (
 				77EAB37368829643274881E7 /* Pods-CoverSampleApp.debug.xcconfig */,
 				0B650B4D0AD87C0789196E48 /* Pods-CoverSampleApp.release.xcconfig */,
+				02C77A2A5ECCD993978A7631 /* Pods-CoverSampleTV.debug.xcconfig */,
+				A898D4E2A6D3035520EAECEB /* Pods-CoverSampleTV.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -120,6 +158,24 @@
 			productReference = 24AACC9320C7EBF30099847A /* CoverSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		24C21AD920C7ED5000B233A6 /* CoverSampleTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C21AE620C7ED5200B233A6 /* Build configuration list for PBXNativeTarget "CoverSampleTV" */;
+			buildPhases = (
+				496AA1127032472DFDADB4AD /* [CP] Check Pods Manifest.lock */,
+				24C21AD620C7ED5000B233A6 /* Sources */,
+				24C21AD720C7ED5000B233A6 /* Frameworks */,
+				24C21AD820C7ED5000B233A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoverSampleTV;
+			productName = CoverSampleTV;
+			productReference = 24C21ADA20C7ED5000B233A6 /* CoverSampleTV.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,6 +187,9 @@
 				ORGANIZATIONNAME = tm;
 				TargetAttributes = {
 					24AACC9220C7EBF30099847A = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					24C21AD920C7ED5000B233A6 = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
@@ -149,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				24AACC9220C7EBF30099847A /* CoverSampleApp */,
+				24C21AD920C7ED5000B233A6 /* CoverSampleTV */,
 			);
 		};
 /* End PBXProject section */
@@ -165,9 +225,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24C21AD820C7ED5000B233A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C21AE420C7ED5100B233A6 /* Assets.xcassets in Resources */,
+				24C21AE220C7ED5000B233A6 /* Main.storyboard in Resources */,
+				24C21AEA20C7EDE500B233A6 /* Video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		496AA1127032472DFDADB4AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoverSampleTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		737C7D49D5A2D8389A8F9FA7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +286,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24C21AD620C7ED5000B233A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C21AE920C7EDD100B233A6 /* ViewController.swift in Sources */,
+				24C21ADD20C7ED5000B233A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -215,6 +312,14 @@
 				24AACCA020C7EBF30099847A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		24C21AE020C7ED5000B233A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C21AE120C7ED5000B233A6 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -372,6 +477,50 @@
 			};
 			name = Release;
 		};
+		24C21AE720C7ED5200B233A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C77A2A5ECCD993978A7631 /* Pods-CoverSampleTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
+				INFOPLIST_FILE = "$(SRCROOT)/CoverSampleApp/Supporting Files/CoverSampleTV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.CoverSampleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		24C21AE820C7ED5200B233A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A898D4E2A6D3035520EAECEB /* Pods-CoverSampleTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
+				INFOPLIST_FILE = "$(SRCROOT)/CoverSampleApp/Supporting Files/CoverSampleTV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.CoverSampleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -389,6 +538,15 @@
 			buildConfigurations = (
 				24AACCA620C7EBF30099847A /* Debug */,
 				24AACCA720C7EBF30099847A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C21AE620C7ED5200B233A6 /* Build configuration list for PBXNativeTarget "CoverSampleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C21AE720C7ED5200B233A6 /* Debug */,
+				24C21AE820C7ED5200B233A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
