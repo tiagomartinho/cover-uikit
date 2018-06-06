@@ -1,25 +1,22 @@
-//
-//  ViewController.swift
-//  CoverSampleApp
-//
-//  Created by Tiago Martinho on 6/6/18.
-//  Copyright © 2018 tm. All rights reserved.
-//
-
 import UIKit
+import Cover
 
 class ViewController: UIViewController {
 
+    var player: Player?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        player = view.add(videoName: "Video.mp4", alpha: 0.5)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        player?.play()
     }
 
-
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        player?.pause()
+    }
 }
-
