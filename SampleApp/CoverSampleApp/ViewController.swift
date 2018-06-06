@@ -19,4 +19,8 @@ class ViewController: UIViewController {
         super.viewDidDisappear(animated)
         player?.pause()
     }
+
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 }
